@@ -1,0 +1,45 @@
+<p>
+<head>
+<style>
+  h1 {font-size: 80px;}
+  h1 {text-align: center;}
+  h1 {font-family: "Garamond";}
+  h1 {color: white}
+  h2 {font-family: "Garamond"; font-size: 30px; font-weight: bold;}
+  label {font-size: 30px; font-weight: 400;}
+  label {font-family: "Garamond";}
+  input {font-size: 30px;}
+  input {font-family: "Garamond";}
+  button {text-align: center;} 
+  button {font-size: 25px;}
+  button {font-family: "Garamond";}
+  .backgroundImage {
+   background-image: url("https://image.freepik.com/free-vector/flat-comic-style-wallpaper_23-2148818772.jpg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+</style>
+</head>
+</p>  
+
+<div class="backgroundImage"/>
+
+<h1>NERDS NIGHT OUT</h1>
+  
+<form action="{{ url_for("comic")}}" method="post">
+  
+<center><label for="char">Enter Super Character's Name: </label>
+<input id="char" name="comic_char" type="text" placeholder="enter name here" /></center><br><br>
+            
+<center><button type="submit">Go!</button></form></center>
+
+<label><center>
+<ul>
+{%for i in output%}
+    {{i}}<br>
+{%endfor%}
+</ul>
+</label></center>
+</div>
