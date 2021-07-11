@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Getting our Data
-df = pd.read_csv('../Komic King/heroes_information.csv')
+df = pd.read_csv('heroes_information.csv')
 
 # Dropping unnecessary columns
 df = df.drop(['Unnamed: 0', 'Alignment'], axis=1)
