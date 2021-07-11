@@ -1,10 +1,10 @@
 # Nerds Night Out
 
+A website for comic lovers to nerd their hearts out.
+
 
 ![ss1](https://user-images.githubusercontent.com/68627617/125197186-51ba8d80-e27a-11eb-9bf0-c0ea6dda5d83.png)
-
-
-A website for comic lovers to nerd their hearts out. 
+ 
 
 Be it the Marvel, DC, Star Wars or any other comic, nerds just can't get enough of it. So I built a game for all these super heads so that they can come together and battle for the top stop to bag the title of the 'Nerdiest of the Nerds'. To play the game, enter the name your chosen character. The database is so vivid, that you can choose from 700+ unique characters from multiple publications to battle over. Once you've chosen the name, click on go and that's it. You will see that so many of the features of the superhero you choose, get listed. Now, you can ask your opponents to guess these characteristics and you may give them a point for every correct guess that they make. In the end, the player with maximum points wins the round. Super simple, super nerdy, super awesome!
 
