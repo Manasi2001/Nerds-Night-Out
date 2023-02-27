@@ -20,4 +20,4 @@ Be it the Marvel, DC, Star Wars or any other comic, nerds just can't get enough 
 
 ![ss5](https://user-images.githubusercontent.com/68627617/125197227-6ac33e80-e27a-11eb-9a5c-062eedc8ef5d.png)
 
-Try out the project here: https://nerds-night-out.co
+Try out the project here: https://nerds-night-out.onrender.com/
